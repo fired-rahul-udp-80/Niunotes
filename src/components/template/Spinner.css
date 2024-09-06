@@ -1,0 +1,34 @@
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px dotted #4b0101;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    animation: rotation 2s linear infinite;
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+ 
+/* HTML: <div class="loader"></div> */
+.loader-main {
+  width: 120px;
+  height: 20px;
+   
+  -webkit-mask:linear-gradient(90deg,rgb(70, 1, 1) 70%,#0000 0) 0/20%;
+  background:
+   linear-gradient(rgb(70, 1, 1) 0 0) 0/0% no-repeat
+   #ddd;
+  animation: l4 2s infinite steps(6);
+}
+@keyframes l4 {
+    100% {background-size:120%}
+}
