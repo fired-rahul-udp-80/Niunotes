@@ -26,7 +26,7 @@ const Home = ({notesBook}) => {
                     <p className="text-md opacity-80 font-medium">Notes | Previous Year | Syllabus | Practical</p>
                     <div className="flex md:flex-row flex-col gap-10 mt-5">
                         <a href={syllabus} target="_blank" className="px-6 py-4 w-[40%] md:w-auto text-center bg-bgColor text-secondaryColor font-semibold rounded-md cursor-pointer hover:opacity-80 ">Syllabus</a>
-                        <a href={academic} className="px-6 py-4 w-[70%] md:w-auto text-center bg-bgColor text-secondaryColor font-semibold rounded-md cursor-pointer hover:opacity-80 ">Academic Calendar</a>
+                        <a href={academic} target="_blank" className="px-6 py-4 w-[70%] md:w-auto text-center bg-bgColor text-secondaryColor font-semibold rounded-md cursor-pointer hover:opacity-80 ">Academic Calendar</a>
                     </div>
                 </div>
                 <div className="z-20 hidden lg:flex">
