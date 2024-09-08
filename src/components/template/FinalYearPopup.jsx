@@ -72,7 +72,7 @@ const FinalYearPopup = ({ setPopup }) => {
   },[reset,isSubmitSuccessful]);
 
   return (
-    <div className=" w-screen h-full px-10 inset fixed z-20 flex left-0 justify-center top-10 ">
+    <div className=" w-screen h-full px-10 inset fixed z-20 flex left-0 justify-center top-[80px]">
       <div className="relative flex justify-center border backdrop-blur-lg max-h-[300px] w-[95%] md:w-[80%] gap-y-2 rounded-md shadow-2xl flex-col px-10  ">
         <MdClose onClick={()=>setPopup(false)} className="absolute top-2 right-2 text-3xl cursor-pointer font-bold" />
         <form onSubmit={handleSubmit(submitFeedbackForm)}
