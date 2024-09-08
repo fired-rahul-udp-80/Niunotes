@@ -5,7 +5,7 @@ import Contact from '../home/Contact';
 import Title from '../template/Title';
 const AboutPage = () => {
   return (
-    <div>
+    <div className="mt-[70px]">
        <Title
           title = "About Us"
           icon = {<SiOpenlayers/>}
