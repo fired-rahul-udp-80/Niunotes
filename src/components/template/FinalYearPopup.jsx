@@ -73,7 +73,7 @@ const FinalYearPopup = ({ setPopup }) => {
 
   return (
     <div className=" w-screen h-full px-10 inset fixed z-20 flex left-0 justify-center top-10 ">
-      <div className="relative flex justify-center border backdrop-blur-lg max-h-[300px] w-[80%] gap-y-2 rounded-md shadow-2xl flex-col px-10  ">
+      <div className="relative flex justify-center border backdrop-blur-lg max-h-[300px] w-[95%] md:w-[80%] gap-y-2 rounded-md shadow-2xl flex-col px-10  ">
         <MdClose onClick={()=>setPopup(false)} className="absolute top-2 right-2 text-3xl cursor-pointer font-bold" />
         <form onSubmit={handleSubmit(submitFeedbackForm)}
 
@@ -104,7 +104,7 @@ const FinalYearPopup = ({ setPopup }) => {
             />
           </div>
           <div>
-            <button type="submit" className="text-secondaryColor bg-bgColor rounded-md px-20 py-3 hover:bg-opacity-90 hover:text-opacity-90 hover:scale-95 focus:outline-none duration-200">
+            <button type="submit" className="text-secondaryColor bg-bgColor rounded-md px-10 md:px-20 py-3 hover:bg-opacity-90 hover:text-opacity-90 hover:scale-95 focus:outline-none duration-200">
               Send
             </button>  
           </div> 
