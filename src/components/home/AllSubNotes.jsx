@@ -37,7 +37,7 @@ const AllSubNotes = () => {
      
   return (
     <>
-    <div className="">
+    <div className="mt-[70px]">
         <div className="bg-bgColor py-5 text-center text-secondaryColor font-titleFont font-semibold text-2xl">Your Study Material</div>
     
          
