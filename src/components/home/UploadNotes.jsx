@@ -135,7 +135,7 @@ const UploadNotes = () => {
 
 
   return (
-    <div className="mt-10" >
+    <div className="mt-[80px]" >
         <div className="max-w-[1160px] mx-auto space-y-5 px-5">
             <h2 className="bg-bgColor text-xl  text-secondaryColor text-center font-titleFont py-5 rounded-md">Upload your Documents</h2>
             <div>
