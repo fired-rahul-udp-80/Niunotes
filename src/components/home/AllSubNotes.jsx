@@ -19,7 +19,7 @@ const AllSubNotes = () => {
 
     if(subNotes == 0 || undefined){
         return <div 
-         className=" px-5 max-w-[1160px] mx-auto">
+         className="mt-[75px] px-5 max-w-[1160px] mx-auto">
              
                         <div onClick={() =>navigate(-1)}
                         className="flex gap-1 mt-2 items-center cursor-pointer underline underline-offset-4 justify-start w-fit text-bgColor font-titleFont font-bold hover:opacity-80">
