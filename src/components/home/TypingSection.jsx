@@ -14,7 +14,7 @@ const TypingSection = ({codeBlock, codeColor}) => {
             </div>
          
         </div>
-        <div className=" py-5 bg-blue-100 md:w-[50%] md:max-w-[500px] flex relative">
+        <div className=" py-5 bg-blue-100 md:w-[50%] md:max-w-[500px] flex relative z-[10]">
             {/* background gradient -color */}
             <div className="absolute left-20 gradient-box bg-gradient-to-b from-purple-700 to-pink-500 shadow-richblue-400 blur-2xl">
 
