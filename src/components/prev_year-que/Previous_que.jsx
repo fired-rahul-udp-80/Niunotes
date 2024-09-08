@@ -10,7 +10,7 @@ const Previous_que = () => {
    const {getThirdSemQuest,getFourthSemQuest, getFifthSemQuest, getSixthSemQuest, getSeventhSemQuest, getEighthSemQuest} = useContext(AppContext )
 
   return (
-    <div className="flex flex-col gap-y-10">
+    <div className="mt-[70px] flex flex-col gap-y-10">
       <Title
        title="Previous Year Question"
        icon = {<RiQuestionAnswerFill />}
