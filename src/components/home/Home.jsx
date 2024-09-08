@@ -13,7 +13,7 @@ const Home = ({notesBook}) => {
     <div className="w-full h-full bg-homeScreen">
 
     
-        <div className="bgimage flex  h-[625px] justify-between px-6 relative overflow-hidden items-center font-bodyFont">
+        <div className="bgimage flex  mt-[70px]  h-[625px] justify-between px-6 relative overflow-hidden items-center font-bodyFont">
             <div className="max-w-[1160px] h-full mx-auto flex items-center justify-center">
                 <div className=" flex flex-col gap-y-6 z-20">
                     <div className="">
