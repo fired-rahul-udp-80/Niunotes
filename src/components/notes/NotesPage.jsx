@@ -5,7 +5,7 @@ import Notes from '../home/Notes';
 import Contact from '../home/Contact';
 const NotesPage = () => {
   return (
-    <div className="flex flex-col gap-y-10">
+    <div className="mt-70px] flex flex-col gap-y-10">
       <Title
         title="All Year Notes"
         icon = {<GrNotes />}
