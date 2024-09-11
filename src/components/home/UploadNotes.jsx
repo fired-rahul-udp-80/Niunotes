@@ -223,7 +223,7 @@ const UploadNotes = () => {
                                  
                             </div>
                             <div className=" flex flex-col  gap-y-2">
-                                <label htmlFor="notes">Upload (pdf) <span>*</span></label>
+                                <label htmlFor="notes">Upload (pdf less than 5mb) <span>*</span></label>
                                 <input type="file"
                                     name="notes"
                                     id="notes"
