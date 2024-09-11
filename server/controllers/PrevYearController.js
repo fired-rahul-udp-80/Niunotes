@@ -9,12 +9,10 @@ const cloudinary = require("cloudinary").v2
 const isFileTypeSupported = (type, supportedTypes) =>{
     return supportedTypes.includes(type);
 }
-const uploadFileToCloudinary = async(file,folder,quality)=>{
+const uploadFileToCloudinary = async(file,folder)=>{
     const options = {folder};
 
-    if(quality){
-        options.quality = quality;
-    }
+    
 
     options.resource_type = "auto";
 
@@ -53,7 +51,7 @@ exports.createThirdSemQuestController = async(req,res) =>{
 
         // upload to cloudinary
         console.log("Image upload to cloudinary");
-        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes",150);
+        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes");
         console.log(uploadResponse);
 
         // create entry in database
@@ -137,7 +135,7 @@ exports.createFourthSemQuestController = async(req,res) =>{
 
         // upload to cloudinary
         console.log("Image upload to cloudinary");
-        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes",150);
+        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes");
         console.log(uploadResponse);
 
         // create entry in database
@@ -222,7 +220,7 @@ exports.createFifthSemQuestController = async(req,res) =>{
 
         // upload to cloudinary
         console.log("Image upload to cloudinary");
-        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes",150);
+        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes");
         console.log(uploadResponse);
 
         // create entry in database
@@ -307,7 +305,7 @@ exports.createSixthSemQuestController = async(req,res) =>{
 
         // upload to cloudinary
         console.log("Image upload to cloudinary");
-        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes",150);
+        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes");
         console.log(uploadResponse);
 
         // create entry in database
@@ -392,7 +390,7 @@ exports.createSeventhSemQuestController = async(req,res) =>{
 
         // upload to cloudinary
         console.log("Image upload to cloudinary");
-        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes",150);
+        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes");
         console.log(uploadResponse);
 
         // create entry in database
@@ -478,7 +476,7 @@ exports.createEighthSemQuestController = async(req,res) =>{
 
         // upload to cloudinary
         console.log("Image upload to cloudinary");
-        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes",150);
+        const uploadResponse = await uploadFileToCloudinary(file,"NiuSemNotes");
         console.log(uploadResponse);
 
         // create entry in database
