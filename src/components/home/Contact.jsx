@@ -48,8 +48,8 @@ const Contact = () => {
         </div>
         <div className=" font-medium font-titleFont mt-5 text-center">
           <div className="footer-name-border mb-3"></div>
-          <span className="text-secondaryColor">Designed by - Rahul Kumar |</span>
-          <span className="text-secondaryColor"> Distributed by Our Team</span>
+          <span className="text-secondaryColor">Designed by - Rahul Kumar ||</span>
+          <span className="text-secondaryColor"> Distributed by Our Team (2022-2026)</span>
         </div>
     </div>
   )
