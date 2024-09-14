@@ -125,7 +125,7 @@ export const notesBook = [
     fifthDetails : [
       {
         id : 3001,
-        title : "Software Engineering",
+        title : "Signal and System",
         course_code : "PCCCSE0501",
          
       },
@@ -149,16 +149,27 @@ export const notesBook = [
       },
       {
         id : 3005,
-        title : "Elective I",
+        title : "AI",
         course_code : "PEC-CS*",
          
       },
       {
         id : 3006,
-        title : "Soft skills and interpersonal Communication",
+        title : "Advance AI & ML techniques",
         course_code : "HSMC0501",
          
-      }
+      },
+     {
+      id:3007,
+      title : "Probability and Statistics",
+      course_code : "00000",
+     }
+     {
+      id:3008,
+      title : "Digital Image Processing",
+      course_code:"0000",
+     }
+     
     ],
 
 
