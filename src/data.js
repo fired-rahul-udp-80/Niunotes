@@ -285,7 +285,7 @@ export const allSemester = [
   {
       id:"s3",
       semester : "5th semester",
-      subject : ["Software Engineering","Database Management Systems","Formal Language & Automata Theory","Object Oriented Programming","Elective I","Soft skills and interpersonal Communication","Previous Year Question Paper"],
+      subject : ["Signal and System","Database Management Systems","Formal Language & Automata Theory","Object Oriented Programming","AI","Advance AI & ML techniques","Probability and Statistics","Digital Image Processing","Previous Year Question Paper"],
   },
   {
       id:"s4",
