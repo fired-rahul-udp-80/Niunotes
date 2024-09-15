@@ -163,12 +163,12 @@ export const notesBook = [
       id:3007,
       title : "Probability and Statistics",
       course_code : "00000",
-     }
+     },
      {
       id:3008,
       title : "Digital Image Processing",
       course_code:"0000",
-     }
+     },
      
     ],
 
