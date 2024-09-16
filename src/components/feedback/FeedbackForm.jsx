@@ -8,10 +8,11 @@ import {AppContext} from "../../context/AppContext"
 import FeedbackSlider from './FeedbackSlider';
 import {toast} from 'react-toastify'
 //import { useNavigate } from 'react-router-dom';
+import {Spinner} from '../feedback/template/Spinner';
  
 
 const FeedbackForm = () => {
-    const {getAllFeedback} = useContext(AppContext);
+    const {getAllFeedback,loading} = useContext(AppContext);
     const [file, setFile] = useState();
     const [popup, setPopup] = useState(false);
     const [bkFormData,setBkFormData] = useState();
@@ -179,7 +180,16 @@ const FeedbackForm = () => {
                     <p className="text-4xl mb-10 text-bgColor font-titleFont font-medium  underline-offset-8 " >Our Feedback</p>
                     
                     <div>
-                         <FeedbackSlider/>
+                     {
+                      loading ? 
+                      (
+                       <Spinner />
+                      ):
+                      (
+                        <FeedbackSlider/>
+                      )
+                     }
+                        
                         
                     </div>
                 </div>
