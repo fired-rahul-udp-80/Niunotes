@@ -71,7 +71,7 @@ const PortfolioLink = () => {
                 <img src={img} className="h-full  aspect-square rounded-3xl object-cover  group-hover:w-full duration-100 ease-linear" alt="" />
                 <div className="absolute  w-full h-full bottom-0 flex justify-end  flex-col items-center z-10 py-5 px-5 gap-y-10">
                    <div className="">
-                   <p className="text-white font-titleFont font-bold text-xl md:text-3xl text-center group-hover:text-3xl ">Vivek Kumar</p>
+                   <p className="text-white font-titleFont font-bold text-xl md:text-3xl text-center group-hover:text-3xl ">Bibek Kumar</p>
                    <p className="text-white text-sm font-bold text-center">(Portfolio)</p>
                    </div>
                     
