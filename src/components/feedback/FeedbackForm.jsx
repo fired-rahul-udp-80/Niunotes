@@ -8,7 +8,7 @@ import {AppContext} from "../../context/AppContext"
 import FeedbackSlider from './FeedbackSlider';
 import {toast} from 'react-toastify'
 //import { useNavigate } from 'react-router-dom';
-import {Spinner} from '../feedback/template/Spinner';
+import {Spinner} from '../template/Spinner';
  
 
 const FeedbackForm = () => {
